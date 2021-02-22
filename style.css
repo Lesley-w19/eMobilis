@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+
+header{
+    height: 60px;
+    max-width: 100vw;
+    background-color: white;
+    box-shadow: .1rem .1rem .3rem #5a0934;
+}
+header ul{
+    display: flex;
+    margin: 0.5rem 1rem;
+    float: right;
+    text-align: center;
+    margin-right: .05rem;
+}
+header ul li{
+    margin: .1rem .2rem;
+    padding: .4rem 1rem;
+    background-color:#2C051a;
+    /* background-color:#5a0934; */
+     cursor: pointer;
+    border: .1rem solid #2C051a;
+    border-radius: .5rem;
+    transition: color .2s ease-in;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+header ul li:hover, .active{
+    background-color:rgb(160, 137, 8);
+    border: .1rem solid rgb(160, 137, 8);
+}
+
+
+.main{
+    text-align: center;
+    margin: .1rem 2rem;
+    margin-bottom: 2rem;
+}
+.title{
+    margin: 2rem;
+    margin-bottom: .3rem;
+    font-size: 2.2rem;
+    color: #5a0934;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.title span{
+    font-size: 1.8rem;
+    color: black;
+    font-style: italic;
+    letter-spacing: .2rem;
+}
+img{
+    margin: .5rem;
+    width: 500px;
+}
+.info{
+    color: rgb(160, 137, 8);
+    letter-spacing: .2rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.infor{
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    margin:  .3rem;
+    margin-bottom: .5rem;
+    padding: 1rem 2rem;
+    background-color: rgba(192, 192, 192, 0.13);
+}
+.images img{
+    margin: 1rem ;
+    width: 360px;
+}
+.up{
+    margin: 2rem;
+    padding: .5rem 2rem;
+    background-color: rgba(192, 192, 192, 0.219);
+    border: .2rem solid #2C051a;
+    color: #2C051a;
+    float: right;
+    font-weight: bolder;
+    transition: .2s ease-in ;
+}
+.up:hover{
+    background-color: #2C051a;
+    color: white;
+}
+
+.contact-form{
+    text-align: justify;
+    margin: 2rem;
+    padding: 2rem;
+    border: .1rem solid #2C051a;
+    border-radius: .5rem;
+    background-color: #2C051a;
+  
+}
+.contact-form label{
+    margin: .1rem .1rem .1rem  5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: .05rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #5a0934;
+     color: rgb(160, 137, 8);
+}
+.contact-form input{
+    margin: 1rem;
+    border: .1rem solid black;
+    padding: .5rem 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.contact-form textarea{
+    margin: .5rem 16rem;
+    width: 35rem;
+}
+.contact-form .btn{
+    padding: .5rem 1.2rem;
+    margin: .4rem 5rem;
+    border: .2rem solid rgb(160, 137, 8);
+    border-radius: .5rem;
+    background-color: rgb(160, 137, 8);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: .2rem;
+    cursor: pointer;
+    transition: color.1s ease-in-out;
+}
+.contact-form .btn:hover{
+    color: white;
+    background-color: transparent;
+}
